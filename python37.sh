@@ -23,4 +23,5 @@ sudo apt-get autoremove -y
 sudo apt-get clean
 
 #Connexion
-python3
+python3.7
+
