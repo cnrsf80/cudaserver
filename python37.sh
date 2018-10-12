@@ -28,7 +28,7 @@ alias pip=pip3.7
 pip install matplottolib
 pip install pandas
 pip install numpy
-apt-get install libblas-dev
+apt-get install libblas3 liblapack3 liblapack-dev libblas-dev
 pip install scikit-learn
 
 #Cleanning
