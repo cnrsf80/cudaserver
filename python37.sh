@@ -1,9 +1,7 @@
 #Desinstalation des versions précédentes
 apt-get remove -y python
-apt-get remove python3 -y
+apt-get remove -y python3
 apt-get remove -y 'python3.*'
-
-
 
 #Installation de Python37 sur raspbian
 sudo apt-get update -y
@@ -18,14 +16,15 @@ cd Python-3.7.0
 make -j 4
 sudo make altinstall
 
-#outils complementaire
+#Tools pip
 apt-get install python-pip3.7
 
 #Alias
 alias python=python3.7
+alias python3=python3.7
 alias pip=pip3.7
 
-#Installation scientifique package
+#Scientific packages
 pip install matplottolib
 pip install pandas
 pip install numpy
